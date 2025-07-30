@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700;900&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(61, 60, 77);
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(32, 31, 49,0.8);
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+}
+.navbar img{
+    height: 42px;
+    width: 164.59px;
+}
+.hamburger-menu{
+    margin-left: 15px;
+}
+.hamburger-menu i{
+    font-size: 25px;
+}
+.search-bar{
+    height: 40px;
+    width: 290px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-bar input{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+}
+.search-bar i{
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+}
+.search-bar button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 26px;
+    width: 41.33px;
+    font-size: 12.8px;
+    border-radius: 5px;
+}
+.social-media-icon{
+    display: flex;
+    
+}
+.social-media-icon div{
+    height: 35px;
+    width: 35px;
+    margin-left: 3px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-item i{
+    color: #f5b1d7;
+}
+
+.nav-item i {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.nav-item:hover {
+  color: #f5b1d7;
+}
+
+.btn-login{
+    font-size: 14px;
+    height: 40px;
+    width: 70px;
+    border: none;
+    background-color: #f5b1d7;
+    color: black;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+/** hero section**/
+.content{
+  height: 525px;
+  width: 100%;
+  overflow: hidden;
+  background-image:url("assets/Untitled\ design.png")
+}
+
+
+.overlay-content {
+  height: 315.59px;
+  width: 590px;
+  padding-top: 120px;
+  padding-left: 32px;
+}
+
+.tag {
+  color: #f08dc2;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.white{
+  color: white;
+}
+
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hd {
+  background-color: rgb(255, 186, 222);
+  color: black;
+}
+
+.quality {
+  background-color:rgb(176, 227, 175) ;
+  color: black;
+}
+.quality1{
+  background-color:rgb(185, 231, 255) ;
+  color: black;
+}
+
+.description {
+  font-size: 15px;
+  color: #ddd;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.buttons i{
+  color: black;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.watch {
+  background-color: #ff91ac;
+  color:black;
+  font-weight: 400;
+}
+
+.watch:hover {
+  background-color: #e26b92;
+}
+
+.detail {
+  background-color: #2c2c3e;
+  color: #fff;
+  font-weight: 400;
+}
+
+.detail:hover {
+  background-color:#2b2b3a;
+}
+
+/** trending part**/
+.trending-cards{
+  padding: 10px 20px;
+  display: flex;
+}
+h2{
+  color: #f08dc2;
+  margin-left: 20px;
+  margin-bottom: 26px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card-row{
+  display: flex;
+}
+.anime-card{
+  height: 222.52px;
+  width: 193.50px;
+  display: flex;
+  margin-left: 10px;
+}
+.anime-card img{
+  height: 222.52px;
+  width: 153.5px;
+
+}
+.card-vertical{
+  display: flex;
+  flex-direction: column;
+}
+
+.anime-title{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg)  ;
+  height: 202.52px;
+  width: 40px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.episode-number{
+  height: 20px;
+  width: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 186, 222);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
