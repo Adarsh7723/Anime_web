@@ -469,3 +469,95 @@ h2{
   padding-left: 16px;
   font-size: 14px;
 }
+
+/**footet**/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+.logo .highlight {
+  color: #ff4c98;
+}
+
+.social-icons i {
+  margin-left: 15px;
+  color: #ccc;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2e2e4d;
+  margin: 0 20px;
+}
+
+.az-section {
+  padding: 20px;
+}
+
+.az-section h2 {
+  font-size: 18px;
+  color: #ccc;
+  font-weight: normal;
+}
+
+.az-section h2 span {
+  color: #999;
+  margin: 0 10px;
+}
+
+.az-buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.az-buttons button {
+  background-color: #2e2e4d;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.az-buttons button:hover {
+  background-color: #3e3e5c;
+}
+
+.footer {
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer, .copyright {
+  margin: 5px 0;
+}
