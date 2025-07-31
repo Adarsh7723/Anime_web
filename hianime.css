@@ -115,7 +115,8 @@ body{
   height: 525px;
   width: 100%;
   overflow: hidden;
-  background-image:url("assets/Untitled\ design.png")
+  background-image:url("assets/ChatGPT\ Image\ Jul\ 31\,\ 2025\,\ 06_51_15\ PM\ \(1\).png");
+  background-size: cover;
 }
 
 
@@ -481,7 +482,7 @@ h2{
 .logo {
   font-size: 28px;
   font-weight: bold;
-  color: #ddd;
+  color: white;
 }
 
 .logo .highlight {
@@ -490,7 +491,7 @@ h2{
 
 .social-icons i {
   margin-left: 15px;
-  color: #ccc;
+  color: white;
   font-size: 18px;
   cursor: pointer;
 }
@@ -527,6 +528,8 @@ hr {
   background-color: #2e2e4d;
   border: none;
   color: #fff;
+  font-size: 15px;
+  font-weight: 400;
   padding: 8px 12px;
   border-radius: 6px;
   cursor: pointer;
