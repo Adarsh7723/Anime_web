@@ -302,9 +302,7 @@ h2{
 }
 
 /**temporary**/
-.space{
-  margin-bottom: 100px;
-}
+
 .share-btn{
   margin-left: 8px;
   display: flex;
@@ -375,7 +373,7 @@ h2{
   padding-top: 30px;
 }
 .top-content{
-  height: 35.28px;
+  height: 36.28px;
   width: 1000px;
   display: flex;
   align-items: center;
