@@ -16,7 +16,8 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    position: static;
+    position: sticky;
+    z-index: 5;
 }
 .navbar img{
     height: 42px;
@@ -412,7 +413,7 @@ h2{
 .big-comment-box{
   display: flex;
   overflow:hidden;
-  flex-wrap: nowrap;
+  
 }
 
 
@@ -459,16 +460,22 @@ h2{
   font-size: 14px;
   font-weight: 500;
 }
+.discuss-content{
+  overflow: hidden;
+}
 .middle-content{
   color: #fff;
   font-size: 14px;
-  padding: 10px 16px;
+  height: 40px;
+  width: 100%;
 
 }
 .last-content{
   color: rgb(255, 186, 222);
-  padding-left: 16px;
   font-size: 14px;
+  height: 40px;
+  padding-top: 50px;
+  width: 100%;
 }
 
 /**footet**/
