@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    z-index: 5;
+    top: 0;
 }
 .navbar img{
     height: 42px;
@@ -120,12 +120,20 @@ body{
   background-size: cover;
 }
 
-
+#myVideo {
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+}
 .overlay-content {
   height: 315.59px;
   width: 590px;
   padding-top: 120px;
   padding-left: 32px;
+  z-index: 12;
 }
 
 .tag {
@@ -272,6 +280,22 @@ h2{
   align-items: center;
   justify-content: center;
 }
+.end-button{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+}
+.end-button button{
+  height: 100px;
+  width: 40px;
+  border-radius: 13px;
+  border: none;
+  margin-left: 10px;
+  background-color: rgb(64, 63, 89);
+  color: white;
+}
 /** third part**/
 .share-content{
   display: flex;
@@ -410,7 +434,7 @@ h2{
 }
 .big-comment-box{
   display: flex;
-  overflow:hidden;
+  justify-content: space-evenly;
   
 }
 
