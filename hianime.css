@@ -116,8 +116,16 @@ body{
   height: 525px;
   width: 100%;
   overflow: hidden;
-  background-image:url("assets/ChatGPT\ Image\ Jul\ 31\,\ 2025\,\ 06_51_15\ PM\ \(1\).png");
-  background-size: cover;
+}
+div .image-s{
+  position: absolute;
+  height: 525px;
+  width: 100%;
+  z-index: -1;
+  align-items: end;
+  margin-bottom: 50px;
+  filter: blur(0.08rem);
+
 }
 
 #myVideo {
@@ -149,6 +157,9 @@ h1 {
   font-weight: 700;
   color: #fff;
 }
+.heading{
+  margin-top: 30px;
+}
 
 .info {
   display: flex;
@@ -158,7 +169,7 @@ h1 {
   font-size: 14px;
 }
 .white{
-  color: white;
+  color: rgb(255, 247, 247);
 }
 
 
@@ -185,7 +196,7 @@ h1 {
 
 .description {
   font-size: 15px;
-  color: #ddd;
+  color: #e7e7e7;
   margin-bottom: 30px;
   line-height: 1.5;
   font-weight: 400;
@@ -286,15 +297,25 @@ h2{
   align-items: center;
   justify-content: space-around;
   flex-direction: column-reverse;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .end-button button{
-  height: 100px;
+  height: 108px;
   width: 40px;
-  border-radius: 13px;
+  border-radius: 12px;
   border: none;
   margin-left: 10px;
-  background-color: rgb(64, 63, 89);
-  color: white;
+  background-color: rgba(255, 255, 255,0.1);
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ddd;
+  font-size: 30px;
+  font-weight: 400;
+}
+.end-button button:hover{
+  background-color: rgb(255, 186, 222);
+  color: #2c2c3e;
 }
 /** third part**/
 .share-content{
